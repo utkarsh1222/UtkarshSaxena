@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
 import aboutImg from './images/about-img.png';
-import sololearn from './images/sololearn.jpg';
 import { NavLink } from 'react-router-dom';
 import Card from './Card';
 import Projects from './Projects';
@@ -25,7 +24,7 @@ function About() {
                             <NavLink exact to='/contact' className='btn btn-know-more'>Contact Me</NavLink>
                         </div>
                     </div>
-                    <div className='col-lg-6 order-1 order-lg-2 header-img'>
+                    <div className='col-lg-6 order-1 order-lg-2 header-img d-flex justify-content-center flex-column text-center'>
                         <img src={aboutImg} className='img-fluid animated' alt={aboutImg} />
                     </div>
                     </div>
@@ -33,7 +32,7 @@ function About() {
             </div>
         </div>
     </section>
-    <section>
+    <section id='sec'>
         <div className='my-5' id='proj'>
             <h1 className='text-center'><strong className='brand-name'> Projects</strong></h1>
         </div>
@@ -59,11 +58,11 @@ function About() {
             </div>
         </div>
     </section>
-    <section>
-        <div className='my-5' id='proj'>
+    <section id='sec'>
+        <div className='mb-5' id='proj'>
             <h1 className='text-center'><strong className='brand-name'> Certificates</strong></h1>
         </div>
-        <div className='container mt-2 mb-5 '>
+        <div className='container mt-2 mb-5'>
             <div className='row'>
                 <div className='col-10 col-md-6 mx-auto'>
                     <div className='row'>

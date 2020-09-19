@@ -12,7 +12,7 @@ const Card = (props) =>{
     Description
   </button>
   {props.link &&<span>
-     <a href={props.link} className="btn btn-primary ml-2" target='_blank'>View</a>
+     <a href={props.link} rel="noopener noreferrer" className="btn btn-primary ml-2" target='_blank'>View</a>
      </span>}
      </p>
 <div className="collapse" id={props.ind}>

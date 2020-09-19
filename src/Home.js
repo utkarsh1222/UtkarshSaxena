@@ -17,7 +17,7 @@ function Home() {
                     <div className='col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column text-center'>
                         <h1>Hey, I'm <strong className='brand-name'>Utkarsh</strong></h1>
                         <h2 className='my-3'>Full Stack Developer</h2>
-                        <div className='mt-3'>
+                        <div className='pb-4 mt-2'>
                             <NavLink exact to='/about' className='btn btn-know-more'>Know more</NavLink>
                         </div>
                     </div>

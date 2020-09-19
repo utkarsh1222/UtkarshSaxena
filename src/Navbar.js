@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './style.css';
+import Resume from './Resume.pdf';
 
 const Navbar = () =>{
     return(
         <>
-        <div className='container-fluid nav_bg sticky-top'>
+        <div className='container-fluid sticky-top'>
             <div className='row'>
                 <div className='col-10 mx-auto'>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -31,7 +32,10 @@ const Navbar = () =>{
         <NavLink activeClassName='menu_active' exact className="nav-link" to='/contact'>Contact</NavLink>
       </li>
       <li className="nav-item">
-        <a activeClassName='menu_active' exact className="nav-link" href='http://utkarshsaxena.in/' target='_blank'>Blog</a>
+        <a activeClassName='menu_active' rel="noopener noreferrer" exact className="nav-link" href='http://utkarshsaxena.in/' target='_blank'>Blog</a>
+      </li>
+      <li className="nav-item">
+        <a activeClassName='menu_active' rel="noopener noreferrer" exact className="nav-link" href={Resume} download>Resume</a>
       </li>
     </ul>
   </div>
