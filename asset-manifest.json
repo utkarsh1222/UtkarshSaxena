@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/UtkarshSaxena/static/css/main.c48fdedf.chunk.css",
-    "main.js": "/UtkarshSaxena/static/js/main.7ce3cfe4.chunk.js",
-    "main.js.map": "/UtkarshSaxena/static/js/main.7ce3cfe4.chunk.js.map",
+    "main.css": "/UtkarshSaxena/static/css/main.3cd9f003.chunk.css",
+    "main.js": "/UtkarshSaxena/static/js/main.61bdf515.chunk.js",
+    "main.js.map": "/UtkarshSaxena/static/js/main.61bdf515.chunk.js.map",
     "runtime-main.js": "/UtkarshSaxena/static/js/runtime-main.41afed87.js",
     "runtime-main.js.map": "/UtkarshSaxena/static/js/runtime-main.41afed87.js.map",
     "static/js/2.a3dd4561.chunk.js": "/UtkarshSaxena/static/js/2.a3dd4561.chunk.js",
     "static/js/2.a3dd4561.chunk.js.map": "/UtkarshSaxena/static/js/2.a3dd4561.chunk.js.map",
     "index.html": "/UtkarshSaxena/index.html",
-    "precache-manifest.2b6b99bf007329bb43dcd85f4b9d8532.js": "/UtkarshSaxena/precache-manifest.2b6b99bf007329bb43dcd85f4b9d8532.js",
+    "precache-manifest.f07b40c779afa1dfcc7ac67ca9c4745b.js": "/UtkarshSaxena/precache-manifest.f07b40c779afa1dfcc7ac67ca9c4745b.js",
     "service-worker.js": "/UtkarshSaxena/service-worker.js",
-    "static/css/main.c48fdedf.chunk.css.map": "/UtkarshSaxena/static/css/main.c48fdedf.chunk.css.map",
+    "static/css/main.3cd9f003.chunk.css.map": "/UtkarshSaxena/static/css/main.3cd9f003.chunk.css.map",
     "static/js/2.a3dd4561.chunk.js.LICENSE.txt": "/UtkarshSaxena/static/js/2.a3dd4561.chunk.js.LICENSE.txt",
     "static/media/Resume.pdf": "/UtkarshSaxena/static/media/Resume.ba6bf4ed.pdf",
     "static/media/about-img.png": "/UtkarshSaxena/static/media/about-img.9eb35e46.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.41afed87.js",
     "static/js/2.a3dd4561.chunk.js",
-    "static/css/main.c48fdedf.chunk.css",
-    "static/js/main.7ce3cfe4.chunk.js"
+    "static/css/main.3cd9f003.chunk.css",
+    "static/js/main.61bdf515.chunk.js"
   ]
 }
